@@ -227,6 +227,7 @@ p{
         display: flex;
         align-items: space-between;
         align-content: space-between;
+        padding-bottom: 0;
     }
 
     #navbar ul{
@@ -259,7 +260,7 @@ p{
     
     #intro-section{
         display: flex;
-        padding: 1.5% 8%;
+        padding: 0.2% 8%;
     }
     
     #intro-text{
@@ -291,7 +292,7 @@ p{
     
     #swipe-down{
         display: flex;
-        padding: 10% 0%;
+        padding: 4% 0%;
     }
 
     #swipe-down i{
