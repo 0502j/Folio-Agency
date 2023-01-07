@@ -317,14 +317,14 @@ p{
         color:var(--light);
         float: right;
         padding: 8%;
-        width: 8em;
+        width: 10em;
         display: block;
         background-color: var(--dark);
-        border-radius: 0.5em;
+        border-radius: 0.4em;
     }
 
     #intro-ct-button{
-        margin-left: 1em;
+        margin-left: 4em;
        
     }
     
