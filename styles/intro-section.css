@@ -1,0 +1,333 @@
+
+/*Mobile First*/
+
+.container{
+    width:100%;
+}
+
+#full-logo{
+    width: 30%;
+}
+
+#navbar li{
+    color: var(--text-light);
+    visibility: hidden;
+    display: none;
+}
+
+#navbar-section{
+    padding: 5%;
+}
+
+#navbar-section i{
+    float: right;
+    position: relative;
+    bottom: 1.2em;
+}
+
+
+p{
+    color: var(--text-light);
+}
+
+
+.fa-arrow-circle-down{
+    color: var(--secondary);
+}
+
+#intro-section{
+    float: right;
+    padding-left: 5%;
+}
+
+#intro-text{
+    width: 80%;
+}
+
+
+#intro-text h1{
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+
+#intro-text p{
+    margin-bottom: 8%;
+}
+
+.primary-button{
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+#intro-text .primary-button{
+    background-color: var(--primary);
+    margin-bottom: 5%;
+    color: var(--light);
+    padding: 5%;
+    border-radius: 0.5em;
+}
+
+#swipe-down{
+    display: none;
+}
+
+#mob-swipe-text{
+    display: block;
+}
+
+#desk-swipe-text{
+    display: none;
+}
+
+#intro-contact{
+    display: none;
+}
+/*End mobile*/
+
+
+/*Tablet*/
+@media (min-width: 765px){
+    .container{
+        width:100%;
+    }
+    
+    #full-logo{
+        width: 15%;
+    }
+    
+    #navbar li{
+        visibility: visible;
+        display: inline;
+        padding-right: 2em;
+    }
+
+    #navbar{
+        display: flex;
+        align-items: space-between;
+        align-content: space-between;
+    }
+
+    #navbar ul{
+        line-height: 2.5em;
+        padding-left: 8em;
+    }
+
+    
+    #navbar-section{
+        padding: 5%;
+        display: flex;
+        align-content: space-between;
+        align-items: space-between;
+        
+    }
+    
+    #navbar-section i{
+        display: none;
+    }
+    
+    p{
+        color: var(--text-light);
+    }
+    
+    
+    .fa-arrow-circle-down{
+        color: var(--secondary);
+    }
+    
+    #intro-section{
+        display: flex;
+        padding: 4% 8%;
+    }
+    
+    #intro-text{
+        width: 80%;
+    }
+    
+    #intro-text h1{
+        font-size: 3em;
+        margin-bottom: 5%;
+    }
+    
+    #intro-text p{
+        margin-bottom: 8%;
+    }
+
+
+    .primary-button{
+        background-color: var(--primary);
+        color: var(--light);
+    }
+    
+    #intro-text .primary-button{
+        background-color: var(--primary);
+        margin-bottom: 5%;
+        color: var(--light);
+        padding: 5%;
+        border-radius: 0.5em;
+        width: 60%;
+    }
+    
+    #swipe-down{
+        display: flex;
+        padding: 10% 0%;
+    }
+
+    #swipe-down i{
+        margin-right: 0.4em;
+        font-size: 3em;
+    }
+
+
+    #swipe-down p{
+        width: 40%;
+        margin-top: 0.2em;
+    }
+
+    #intro-contact{
+        color:var(--light);
+        float: right;
+        padding: 8%;
+        width: 8em;
+        display: block;
+        background-color: var(--dark);
+        border-radius: 0.5em;
+    }
+
+    #intro-ct-button{
+        margin-left: 1em;
+       
+    }
+    
+}
+
+/*End Tablet*/
+
+
+
+
+
+/*Desktop*/
+@media (min-width: 1440px){
+    .container{
+        width:100%;
+    }
+    
+    #full-logo img{
+        width: 70%;
+    }
+    
+    #navbar li{
+        visibility: visible;
+        display: inline;
+        padding-right: 3em;
+        
+    }
+
+    #navbar{
+        display: flex;
+        align-items: space-between;
+        align-content: space-between;
+    }
+
+    #navbar ul{
+        line-height: 2.5em;
+        padding-left: 8em;
+        margin-left: 25em;
+    }
+
+    
+    #navbar-section{
+        padding: 5%;
+        display: flex;
+        align-content: space-between;
+        align-items: space-between;
+        
+    }
+    
+    #navbar-section i{
+        display: none;
+    }
+    
+    p{
+        color: var(--text-light);
+    }
+    
+    
+    .fa-arrow-circle-down{
+        color: var(--secondary);
+    }
+    
+    #intro-section{
+        display: flex;
+        padding: 1.5% 8%;
+    }
+    
+    #intro-text{
+        width: 50%;
+    }
+    
+    #intro-text h1{
+        font-size: 5em;
+        margin-bottom: 5%;
+    }
+    
+    #intro-text p{
+        margin-bottom: 8%;
+        width: 70%;
+    }
+
+
+    .primary-button{
+        background-color: var(--primary);
+        color: var(--light);
+    }
+    
+    #intro-text .primary-button{
+        margin-bottom: 5%;
+        padding: 5%;
+        border-radius: 0.5em;
+        width: 60%;
+    }
+    
+    #swipe-down{
+        display: flex;
+        padding: 10% 0%;
+    }
+
+    #swipe-down i{
+        margin-right: 0.4em;
+        font-size: 3em;
+    }
+
+
+    #swipe-down p{
+        width: 40%;
+        margin-top: 1em;
+    }
+
+    #mob-swipe-text{
+        display: none;
+    }
+
+    #desk-swipe-text{
+        display: block;
+    }
+
+    #intro-contact{
+        color:var(--light);
+        float: right;
+        padding: 8%;
+        width: 8em;
+        display: block;
+        background-color: var(--dark);
+        border-radius: 0.5em;
+    }
+
+    #intro-ct-button{
+        margin-left: 1em;
+       
+    }
+    
+}
+
+/*End Desktop*/

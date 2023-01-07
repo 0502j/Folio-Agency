@@ -16,12 +16,13 @@
     --orange-accent-shade: #FFCE79;
     --purple-accent: #9A97ED;
     --purple-accent-shade: #908CFF;
+    --text-light: #606060;
  
 }
 
 /*Reset*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-size: 100%;
@@ -33,6 +34,7 @@
 
 body{
     background-color: var(--light);
+    display: block;
 }
 
 a{
@@ -47,12 +49,6 @@ img{
     max-width: 100%;
 }
 
+
 /*End reset*/
 
-
-/*Desktop*/
-/*End desktop*/
-
-
-/*Mobile*/
-/*End mobile*/
