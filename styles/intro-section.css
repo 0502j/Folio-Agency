@@ -82,6 +82,12 @@ p{
 #intro-contact{
     display: none;
 }
+
+#jobs-badge{
+    display: none;
+}
+
+
 /*End mobile*/
 
 
@@ -98,7 +104,7 @@ p{
     #navbar li{
         visibility: visible;
         display: inline;
-        padding-right: 2em;
+        padding-right: 1.2em;
     }
 
     #navbar{
@@ -197,6 +203,16 @@ p{
         margin-left: 1em;
        
     }
+
+    #jobs-badge{
+        display: unset;
+        background-image: linear-gradient(#3A8FFF,#0837AE);
+        color: var(--light);
+        shape-outside: circle();
+        clip-path: circle();
+        margin-left: 0.4em;
+        padding: 0.2em;
+    }
     
 }
 
@@ -219,7 +235,22 @@ p{
     #navbar li{
         visibility: visible;
         display: inline;
-        padding-right: 3em;
+        padding-right: 2em;
+        
+    }
+
+    #navbar li:hover{
+        color: var(--primary);
+    }
+
+    #jobs-badge{
+        display: unset;
+        background-image: linear-gradient(#3A8FFF,#0837AE);
+        color: var(--light);
+        shape-outside: circle();
+        clip-path: circle();
+        margin-left: 0.4em;
+        padding: 0.2em;
         
     }
 
@@ -236,9 +267,11 @@ p{
         margin-left: 25em;
     }
 
-    
     #navbar-section{
-        padding: 5%;
+        padding-top:2%;
+        padding-bottom: 4%;
+        padding-right: 5%;
+        padding-left: 5%;
         display: flex;
         align-content: space-between;
         align-items: space-between;
@@ -260,7 +293,7 @@ p{
     
     #intro-section{
         display: flex;
-        padding: 0.2% 8%;
+        padding: 0.2% 10%;
     }
     
     #intro-text{
@@ -287,7 +320,7 @@ p{
         margin-bottom: 5%;
         padding: 5%;
         border-radius: 0.5em;
-        width: 60%;
+        width: 40%;
     }
     
     #swipe-down{
@@ -328,6 +361,9 @@ p{
         margin-left: 4em;
        
     }
+
+
+
     
 }
 
