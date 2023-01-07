@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+:root{
+ 
+    --primary: #5468E7;
+    --primary-shade: #D1ECFD;
+    --secondary: #C897E4;
+    --secondary-shade: #E8BEFF;
+    --dark: #232340;
+    --dark-shade: #323259;
+    --light: #FFFFFF;
+    --light-shade: #EDEDED;
+    --pink-accent: #FFC7DF;
+    --pink-accent-shade: #FFADD0;
+    --orange-accent: #FFBA79;
+    --orange-accent-shade: #FFCE79;
+    --purple-accent: #9A97ED;
+    --purple-accent-shade: #908CFF;
+ 
+}
+
+/*Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border:none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+body{
+    background-color: var(--light);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*End reset*/
+
+
+/*Desktop*/
+/*End desktop*/
+
+
+/*Mobile*/
+/*End mobile*/
