@@ -1,0 +1,226 @@
+#whatwedo-section{
+    background: linear-gradient(#EDE5F0, #FFFF);
+}
+
+
+#whatwedo-title{
+    padding: 10% 5%;
+    display: flex;
+}
+#whatwedo-title h3{
+    color: var(--primary);
+}
+
+
+#whatwedo-title img{
+    display: hidden;
+}
+
+#whatwedo-text{
+    color: var(--dark);
+    font-size: 2.5em;
+    padding: 0.2% 5%;
+}
+
+#arrow{
+    margin-top: 8%;
+}
+
+#arrow i{
+    margin-left: 1em;
+    padding: 0.2em;
+    font-size: 0.8em;
+    color: var(--light);
+    background-color: var(--primary);
+    border-radius: 50%;
+    position: relative;
+}
+
+#card-group{
+    margin: 2%;
+    padding: 2%;
+}
+
+#card{
+    display: flex;
+    margin: 5%;
+    padding: 10%;
+    background-color: var(--light);
+    color: var(--primary);
+    border-radius: 1em;
+}
+
+#card img{
+    width: 30%;
+}
+
+#card h3{
+    margin: 10%;
+}
+
+#card:hover{
+    background-color: var(--primary);
+    color: var(--light);
+    transition: background-color 200ms linear;
+
+}
+
+#left-arrow{
+    display: none;
+}
+
+
+
+/*Tablet*/
+
+@media (min-width: 765px){
+
+    #whatwedo-title{
+        padding: 5% 5%;
+        display: flex;
+    }
+
+    #whatwedo-title h3{
+        margin-top: 0.2em;
+        color: var(--primary);
+    }
+    
+    
+    #whatwedo-title img{
+        margin-right: 2em;
+        display: unset;
+    }
+    
+    #whatwedo-text{
+        color: var(--dark);
+        font-size: 2.5em;
+        padding: 2% 10%;
+        display: flex;
+    }
+
+    #whatwedo-text h1{
+        width: 60%;
+        display: flex;
+    }
+    
+    #arrow{
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+    
+    #arrow i{
+        margin-left: 1em;
+        padding: 0.2em;
+        font-size: 0.8em;
+        color: var(--light);
+        background-color: var(--primary);
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    #card-group{
+        padding: auto;
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #card{
+        display: block;
+        margin: 0.5%;
+        padding: 5%;
+        border-radius: 1em;
+    }
+
+    #card img{
+        width: 100%;
+    }
+
+    #card h3{
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        
+    }
+
+    #left-arrow{
+        display: none;
+    }
+    
+}
+/*End Tablet*/
+
+
+/*Desktop*/
+@media (min-width: 1440px){
+
+    #whatwedo-title{
+        padding: 2% 5%;
+        display: flex;
+    }
+
+    #whatwedo-title h3{
+        margin-top: 0.2em;
+        color: var(--primary);
+    }
+    
+    
+    #whatwedo-title img{
+        margin-right: 2em;
+        display: unset;
+    }
+    
+    #whatwedo-text{
+        color: var(--dark);
+        font-size: 2.5em;
+        padding: 2% 14%;
+        display: flex;
+    }
+
+
+    #left-arrow{
+        display: unset;
+    }
+    
+    #arrow{
+        margin-top: 2%;
+        margin-left: 50%;
+        display: flex;
+    }
+    
+    #arrow i{
+        height: 1.5em;
+    }
+    
+    #card-group{
+        padding: auto;
+        margin: auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+    #card{
+        display: block;
+        margin: 0.5%;
+        padding: 5%;
+        border-radius: 1em;
+        height: 25em;
+    }
+
+    #card img{
+        width: 100%;
+    }
+
+    #card h3{
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        
+    }
+
+
+}
+/*End Desktop*/

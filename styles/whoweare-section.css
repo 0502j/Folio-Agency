@@ -59,6 +59,7 @@
 
 #whoweare-sec-text{
     padding: 10% 5%;
+    margin-bottom: 2em;
 }
 
 #whoweare-sec-text h3{
@@ -143,7 +144,6 @@
 
     #whoweare-text h1{
         margin-bottom: 0.5em;
-    
     }
    
 
@@ -261,14 +261,12 @@
         height: 14em;
         border-radius: 50%;
         background: var(--dark-shade);
-        
     }
     
     
     #branding-number h1{
         padding-top: 0.1em;
         font-size: 7.5em;
-    
     }
 }
 /*End Tablet*/
@@ -420,8 +418,6 @@
         
     
     }
-
-
     
 }
 /*End Desktop*/

@@ -85,6 +85,7 @@ img{
         color: var(--light);   
         display: flex;
         margin-left: 4.5em;
+        margin-top: 0.5em;
     }
     
     
@@ -107,7 +108,18 @@ img{
     }
 }
 
-
-
-
 /*End Desktop*/
+
+
+/*Tablet*/
+@media (min-width: 765px){
+    
+    .symbol{
+        display: unset;
+        width: 2em;
+        height: 2em;
+        margin-right: 2em;
+    }
+    
+}
+/*End Tablet*/
