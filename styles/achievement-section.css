@@ -1,0 +1,169 @@
+#achievements{
+    background: var(--light);
+}
+
+#achievement-title{
+    padding: 2% 2%;
+}
+
+#achievement-title h3{
+    color: var(--text-light);
+}
+
+
+#achievement-title h3:nth-child(2){
+    color: var(--dark);
+}
+
+#achievement-text h2{
+    width: 60%;
+    padding: 4% 5%;
+}
+
+
+#proj-number {
+    padding: 5% 5%;
+}
+
+#proj-number h1{
+    color: var(--primary);
+    font-size: 8.75em;
+}
+
+#proj-number p{
+    color: var(--dark);
+    font-weight: bolder;
+}
+
+#radio-options{
+    text-align: center;
+
+}
+
+#radio-options input{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+
+}
+
+
+/*Tablet*/
+@media (min-width: 765px){
+
+    #achievements{
+        background: var(--light);
+        
+    }
+    #achievements-group{
+        flex-direction: row-reverse; 
+        display: flex;
+    }
+
+
+    #achievements-illustration{
+        width: 50%;
+    }
+    
+
+    #achievement-title h3{
+        color: var(--text-light);
+        padding: 3% 2%;
+    }
+    
+    .desc{
+        margin-left: 0;
+    }
+    
+  
+    #achievement-text h2{
+        width: 100%;
+        padding: 10% 5%;
+    }
+    
+    
+    #proj-number {
+        padding: 5% 5%;
+       
+    }
+    
+ 
+    #radio-options{
+        text-align: left;
+        margin-left: 18%;
+    
+    }
+ 
+    
+    
+}
+/*End Tablet*/
+
+/*Desktop*/
+@media (min-width: 1440px){
+    #achievements{
+        /* position: relative;
+        left: 8em;
+        bottom: 1em; */
+        padding-left: 10em;
+    }
+    #achievements-group{
+        flex-direction: row-reverse; 
+        display: flex;
+    }
+
+    #achievements-illustration{
+        text-align: center;
+    }
+    
+
+    #achievement-title h3{
+        color: var(--text-light);
+        padding-top: 2%;
+        padding-right: 1%;
+        padding-bottom: 8%;
+        padding-left: 1%;
+    }
+    
+    
+    #achievement-title h3:nth-child(2){
+        color: var(--dark);
+    }
+
+    .title{
+        margin-left: 0;
+    }
+
+    .desc{
+        margin: 0;
+    }
+    
+  
+    #achievement-text h2{
+        
+        width: 80%;
+        padding: 0%;
+        font-size: 2em;
+    }
+    
+    
+    #proj-number {
+        padding: 15% 5%;
+       
+    }
+    
+ 
+    #radio-options{
+        text-align: left;
+        margin-left: 0%;
+    
+    }
+    
+    #radio-options input{
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    
+    }
+    
+}
