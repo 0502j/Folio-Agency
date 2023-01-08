@@ -16,7 +16,10 @@
 }
 
 #navbar-section{
-    padding: 5%;
+    padding: 2% 4%;
+    position: fixed;
+    top: 0px;
+    background: var(--light);
 }
 
 #navbar-section i{
@@ -36,7 +39,7 @@ p{
 }
 
 #intro-section{
-    float: right;
+    padding-top: 25%;
     padding-left: 5%;
     background-color: var(--light);
 }
@@ -125,6 +128,7 @@ p{
 
     
     #navbar-section{
+        position: relative;
         padding: 5%;
         display: flex;
         align-content: space-between;
@@ -273,6 +277,7 @@ p{
     }
 
     #navbar-section{
+        position: relative;
         padding-top:2%;
         padding-bottom: 4%;
         padding-right: 5%;
