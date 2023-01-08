@@ -38,6 +38,7 @@ p{
 #intro-section{
     float: right;
     padding-left: 5%;
+    background-color: var(--light);
 }
 
 #intro-text{
@@ -85,6 +86,10 @@ p{
 
 #jobs-badge{
     display: none;
+}
+
+#intro-illustration{
+    padding-bottom: 5rem;
 }
 
 

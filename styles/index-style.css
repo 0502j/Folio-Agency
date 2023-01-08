@@ -17,6 +17,7 @@
     --purple-accent: #9A97ED;
     --purple-accent-shade: #908CFF;
     --text-light: #606060;
+    --text-body-light: #8B8B8B;
  
 }
 
@@ -52,3 +53,61 @@ img{
 
 /*End reset*/
 
+
+.title{
+    color: var(--light);   
+    display: flex;
+    margin-left: 0.5em;
+}
+
+
+.desc{
+    color: var(--light);
+    width: 100%;
+    margin-left: 2em;
+    font-size: 0.875em;
+}
+
+.section-number{
+    color: var(--text-body-light);
+}
+
+.symbol{
+    display: none;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+/*Desktop*/
+@media (min-width: 1440px){
+
+    .title{
+        color: var(--light);   
+        display: flex;
+        margin-left: 4.5em;
+    }
+    
+    
+    .desc{
+        color: var(--light);
+        width: 100%;
+        margin-left: 2em;
+        font-size: 0.875em;
+    }
+    
+    .section-number{
+        color: var(--text-body-light);
+    }
+    
+    .symbol{
+        display: unset;
+        width: 2em;
+        height: 2em;
+        margin-right: 2em;
+    }
+}
+
+
+
+
+/*End Desktop*/

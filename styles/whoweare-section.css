@@ -1,0 +1,427 @@
+#whoweare-section{
+    margin-top: 10rem;
+    background: var(--dark);
+}
+
+#whoweare-title{
+    display: inline-flex;
+    padding-top: 15%;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-bottom: 5%;
+}
+
+#arrow-group{
+    padding-top: 1.5em;
+    color: var(--light);
+    
+}
+
+#sec-text-group-content{
+    display: none;
+}
+
+#arrow-group i{
+    margin-left: 1em;
+    padding: 0.2em;
+    font-size: 0.8em;
+}
+
+#arrow-group i:hover{
+    margin-left: 1em;
+    background-color: var(--primary);
+    border-radius: 50%;
+
+}
+
+#whoweare-text{
+    color: var(--light);
+    font-size: 2.5em;
+    padding: 0.2% 5%;
+}
+
+#mob-years{
+    float: right;
+    position: relative;
+    bottom:2em;
+    right: 2em;
+    color: var(--light);
+    outline: none;
+    background-color: transparent;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding:0.2rem;
+    font-size: 1em;
+}
+
+
+
+#whoweare-sec-text{
+    padding: 10% 5%;
+}
+
+#whoweare-sec-text h3{
+    color: var(--light);
+    padding-bottom: 5%;
+}
+
+#whoweare-sec-text p{
+    color: var(--text-light);
+    padding-bottom: 5%;
+}
+
+#whoweare-sec-text .primary-button{
+    color: var(--light);
+    width: 50%;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+#branding-number{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    color: var(--light);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: var(--dark-shade);
+}
+
+
+#branding-number h1{
+    padding-top: 0.30em;
+    font-size: 5em;
+
+}
+
+/* #under{
+    box-shadow: 0 15px 8px 8px rgba(0,0,0,0.36);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 12.5em;
+    left:3.8em;
+    
+} */
+
+#years-desk-group{
+    display: none;
+}
+
+#whoweare-desk-img{
+    display: none;
+}
+
+
+/*Tablet*/
+@media (min-width: 765px){
+
+           
+    #whoweare-desk-img{
+        display: unset;
+        width: 80%;
+    }
+
+    #whoweare-title{
+        display: inline-flex;
+        padding-top: 5%;
+        padding-right: 2%;
+        padding-left: 2%;
+        padding-bottom: 5%;
+    }
+
+    #sec-text-group-content img{
+       height: 10%;
+    }
+    
+    #whoweare-text-group{
+        display: flex;
+    }
+
+    #whoweare-text h1{
+        margin-bottom: 0.5em;
+    
+    }
+   
+
+    #years-desk-group{
+        display: flex;
+    }
+
+    
+    #years-desk-group ul{
+        padding-left: 2%;
+        padding-right: 5%;
+        padding-top: 4%;
+    }
+
+    #years-desk-group li{
+        color: var(--text-light);
+        margin-bottom: 6em;
+    }
+
+
+    #whoweare-mob-img{
+        display: none;
+    }
+
+    #mob-years{
+        display: none;
+    }
+
+    #arrow-group{
+        color: var(--light);
+        position: relative;
+        left: 2em;
+        bottom: 1.5em;
+        display: flex;
+        
+    }
+    
+    #arrow-group i{
+        margin-left: 1em;
+        padding: 0.2em;
+        height: 1.5em;
+    }
+    
+    #arrow-group i:hover{
+        margin-left: 1em;
+        background-color: var(--primary);
+        border-radius: 50%;
+    
+    }
+    
+    #whoweare-text{
+        color: var(--light);
+        font-size: 2.5em;
+        padding: 0.2% 5%;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        
+    }
+
+    #mob-years{
+        float: right;
+        position: relative;
+        bottom:2em;
+        right: 2em;
+        color: var(--light);
+        outline: none;
+        background-color: transparent;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        padding:0.2rem;
+        font-size: 1em;
+    }
+    
+    #whoweare-sec-text{
+        padding: 2% 4%;
+    }
+    
+    #whoweare-sec-text h3{
+        color: var(--light);
+        padding-bottom: 5%;
+        font-size: 1.8em;
+        width: 100%;
+    }
+    
+    #whoweare-sec-text p{
+        color: var(--text-light);
+        width: 80%;
+        font-size: 1.2em;
+    }
+    
+    #whoweare-sec-text .primary-button{
+        color: var(--light);
+        width: 30%;
+        padding: 1em;
+        border-radius: 0.5em;
+        margin-top: 5%;
+    }
+    
+    #whoweare-sec-text-group{
+        display: flex;
+    }
+
+    #sec-text-group-content{
+        display: unset;
+        margin-left: 2em;
+    }
+
+    #branding-number{
+        text-align: center;
+        margin-right: 5%;
+        color: var(--light);
+        width:38em;
+        height: 14em;
+        border-radius: 50%;
+        background: var(--dark-shade);
+        
+    }
+    
+    
+    #branding-number h1{
+        padding-top: 0.1em;
+        font-size: 7.5em;
+    
+    }
+}
+/*End Tablet*/
+
+/*Desktop*/
+@media (min-width: 1440px){
+
+    #whoweare-desk-img{
+        display: unset;
+    }
+
+    #whoweare-title{
+        display: inline-flex;
+        padding-top: 5%;
+        padding-right: 4%;
+        padding-left: 4%;
+        padding-bottom: 5%;
+    }
+    
+    #whoweare-text-group{
+        display: flex;
+    }
+    #whoweare-text-group h1{
+        width: 50%;
+        
+    }
+
+    #years-desk-group{
+        display: flex;
+    }
+
+    
+    #years-desk-group ul{
+        padding-left: 5%;
+        padding-right: 10%;
+        padding-top: 4%;
+    }
+
+    #years-desk-group li{
+        color: var(--text-light);
+        margin-bottom: 6em;
+    }
+
+
+    #whoweare-mob-img{
+        display: none;
+    }
+
+    #mob-years{
+        display: none;
+    }
+
+    #arrow-group{
+        color: var(--light);
+        position: relative;
+        left: 9.5em;
+        bottom: 2em;
+        display: flex;
+        
+    }
+    
+    #arrow-group i{
+        margin-left: 1em;
+        padding: 0.2em;
+        height: 1.5em;
+    }
+    
+    #arrow-group i:hover{
+        margin-left: 1em;
+        background-color: var(--primary);
+        border-radius: 50%;
+    
+    }
+    
+    #whoweare-text{
+        color: var(--light);
+        font-size: 2.5em;
+        padding: 0.2% 5%;
+        width: 50%;
+        margin-left: 13%;
+        display: flex;
+        
+    }
+
+    #mob-years{
+        float: right;
+        position: relative;
+        bottom:2em;
+        right: 2em;
+        color: var(--light);
+        outline: none;
+        background-color: transparent;
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        padding:0.2rem;
+        font-size: 1em;
+    }
+    
+    #whoweare-sec-text{
+        padding: 10% 12%;
+        
+    }
+    
+    #whoweare-sec-text h3{
+        color: var(--light);
+        padding-bottom: 5%;
+        font-size: 1.8em;
+        width: 70%;
+    }
+    
+    #whoweare-sec-text p{
+        color: var(--text-light);
+        width: 80%;
+        font-size: 1.2em;
+    }
+    
+    #whoweare-sec-text .primary-button{
+        color: var(--light);
+        width: 30%;
+        padding: 1em;
+        border-radius: 0.5em;
+        margin-top: 5%;
+    }
+    
+    #whoweare-sec-text-group{
+        display: flex;
+    }
+
+    #sec-text-group-content{
+        display: unset;
+        margin-left: 5.5em;
+    }
+
+    #branding-number{
+        text-align: center;
+        margin-right: 20%;
+        color: var(--light);
+        width:50em;
+        height: 20em;
+        border-radius: 50%;
+        background: var(--dark-shade);
+    }
+    
+    
+    #branding-number h1{
+        padding-top: 0.30em;
+        font-size: 8.75em;
+        
+    
+    }
+
+
+    
+}
+/*End Desktop*/
