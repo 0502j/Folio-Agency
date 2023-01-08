@@ -57,7 +57,12 @@ img{
 .title{
     color: var(--light);   
     display: flex;
-    margin-left: 0.5em;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.title h3{
+    margin-left: 1em;
 }
 
 

@@ -7,7 +7,7 @@
     display: inline-flex;
     padding-top: 15%;
     padding-right: 4%;
-    padding-left: 4%;
+    padding-left: 0%;
     padding-bottom: 5%;
 }
 
@@ -59,7 +59,7 @@
 
 #whoweare-sec-text{
     padding: 10% 5%;
-    margin-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 #whoweare-sec-text h3{
