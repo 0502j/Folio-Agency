@@ -48,6 +48,74 @@
 }
 
 
+#famousproj-cardsct{
+    width: fit-content;
+    margin: 0em;
+    padding: 0.5em;
+}
+
+#famousproj-cardflex{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1.5em;
+}
+
+#famousproj-cardimg{
+    width: 90%;
+    border-radius: 2em;
+    background-color: #D1ECFD;
+    text-align: center;
+    margin: auto;
+}
+
+#famousproj-cardtxt{
+    z-index: 5;
+    position: initial;
+    left: 0em;
+    padding: 0.2em 1em;
+}
+#famousproj-cardtxt h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#famousproj-cardtxt p{
+    width: 90%;
+    margin-top: 1em;
+}
+
+#famousproj-cardtxt .primary-button{
+    color: var(--light);
+    background-color: #908CFF;
+    width: fit-content;
+    padding: 0.8em;
+    font-size: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    position: relative;
+    bottom: 3.4em;
+    left: 0.8em;
+}
+
+#famousproj-viewbutton{
+   display: none;
+}
+
+#famousproj-arrowbutton{
+    color: white;
+    text-align: center;
+    padding: 1.4em 1em;
+    z-index: 7;
+    position: relative;
+    width: 6em;
+    height: 4em;
+    bottom: 0em;
+    left: 0em;
+    background-color: var(--primary);
+    border-radius: 4em;
+    display: none;
+}
+
 
 
 /*Tablet*/
@@ -91,20 +159,90 @@
         display: flex;
         align-content: space-around;
         padding: 0em 0em;
-        margin-left: 2.5em;
+        margin-left: 2em;
     }
     
     #invdiv{
-        width: 40%;
+        width: 20%;
+        display: unset;
     }
     
     #famousproj-flexgroup .primary-button{
         color: var(--light);
-        width: 16%;
+        width: fit-content;
         padding: 0.5em;
         font-size: 0.4em;
         border-radius: 0.5em;
+        display: unset;
+
     }
+
+    #famousproj-cardsct{
+        width: 90%;
+        margin: 1em;
+    }
+
+    #famousproj-cardflex{
+        display: flex;
+        flex-direction: initial;
+        margin-top: 0em;
+    }
+
+    #famousproj-cardimg{
+        width: 100%;
+        border-radius: 2em;
+        background-color: #D1ECFD;
+        text-align: center;
+
+    }
+
+    #famousproj-cardtxt{
+        z-index: 5;
+        position: relative;
+        left: 5em;
+    }
+    #famousproj-cardtxt h1{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+
+    #famousproj-cardtxt p{
+        width: 50%;
+        margin-top: 1em;
+    }
+
+    #famousproj-cardtxt .primary-button{
+        color: var(--light);
+        background-color: #908CFF;
+        width: fit-content;
+        padding: 0.8em;
+        font-size: 1em;
+        border-radius: 1em;
+        margin-bottom: 1em;
+        position: initial;
+        bottom: 0em;
+        left: 0em;
+    }
+
+    #famousproj-viewbutton{
+       display: none;
+    }
+
+    #famousproj-arrowbutton{
+        color: white;
+        text-align: center;
+        padding: 1.4em 1em;
+        z-index: 7;
+        position: relative;
+        width: 6em;
+        height: 4em;
+        bottom: -3em;
+        left: 20em;
+        background-color: var(--primary);
+        border-radius: 4em;
+    }
+
 }
 /*End Tablet*/
 
@@ -112,6 +250,7 @@
 /*Desktop*/
 @media (min-width: 1440px){
 
+    
     #famousproj-section{
         background: var(--light);
     }
@@ -141,7 +280,7 @@
         font-size: 0.5em;
         text-align: left;
         width: 90%;
-        padding: 3% 12%;
+        padding: 3% 8%;
     }
     
     
@@ -152,8 +291,10 @@
         margin-left: 2.5em;
     }
     
+        
     #invdiv{
-        width: 40%;
+        width: 50%;
+        display: unset;
     }
     
     #famousproj-flexgroup .primary-button{
@@ -162,6 +303,85 @@
         padding: 0.5em;
         font-size: 0.4em;
         border-radius: 0.5em;
+        display: unset;
+    }
+
+
+    #famousproj-cardsct{
+        width: 80%;
+        margin: 5em;
+    }
+
+    #famousproj-cardflex{
+        display: flex;
+        flex-direction: initial;
+        margin-top: 0em;
+    }
+
+    #famousproj-cardimg{
+        width: 100%;
+        border-radius: 2em;
+        background-color: #D1ECFD;
+        text-align: center;
+
+    }
+
+    #famousproj-cardtxt{
+        z-index: 5;
+        position: relative;
+        left: 8em;
+    }
+    #famousproj-cardtxt h1{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+
+    #famousproj-cardtxt p{
+        width: 50%;
+        margin-top: 1em;
+    }
+
+    #famousproj-cardtxt .primary-button{
+        color: var(--light);
+        background-color: #908CFF;
+        width: fit-content;
+        padding: 0.8em;
+        font-size: 1em;
+        border-radius: 1em;
+        margin-bottom: 1em;
+        position: initial;
+        bottom: 0em;
+        left: 0em;
+    }
+
+    #famousproj-viewbutton{
+        display: unset;
+        color: white;
+        text-align: center;
+        padding: 2em 1em;
+        z-index: 6;
+        position: relative;
+        width: 8em;
+        height: 5em;
+        bottom: -27em;
+        left: 6em;
+        background-color: #232340;
+        border-radius: 4em;
+    }
+
+    #famousproj-arrowbutton{
+        color: white;
+        text-align: center;
+        padding: 2em 1em;
+        z-index: 7;
+        position: relative;
+        width: 8em;
+        height: 5em;
+        bottom: -3em;
+        left: 36em;
+        background-color: var(--primary);
+        border-radius: 4em;
     }
     
 }
