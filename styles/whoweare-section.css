@@ -31,7 +31,7 @@
     margin-left: 1em;
     background-color: var(--primary);
     border-radius: 50%;
-
+    transition: background-color 200ms linear;
 }
 
 #whoweare-text{
@@ -190,8 +190,7 @@
     #arrow-group i:hover{
         margin-left: 1em;
         background-color: var(--primary);
-        border-radius: 50%;
-    
+        border-radius: 50%;    
     }
     
     #whoweare-text{
