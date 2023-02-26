@@ -1,0 +1,168 @@
+#famousproj-section{
+    background: var(--light);
+}
+
+
+#famousproj-title{
+    padding: 3% 2%;
+    display: flex;
+}
+
+#famousproj-title h3{
+    color: var(--primary);
+}
+
+
+#famousproj-title img{
+    display: hidden;
+}
+
+
+#famousproj-description{
+    font-size: 3em;
+    text-align: left;
+}
+
+#famousproj-description p{
+    font-size: 0.3em;
+    text-align: left;
+    width: 100%;
+    padding: 2% 5%;
+}
+
+
+#famousproj-flexgroup{
+    display: block;
+    align-content: space-around;
+    padding: 0em 0em;
+    margin-left: 0.4em;
+}
+
+#invdiv{
+    width: 0%;
+    display: none;
+}
+
+#famousproj-flexgroup .primary-button{
+   display: none;
+}
+
+
+
+
+/*Tablet*/
+
+@media (min-width: 765px){
+
+    #famousproj-section{
+        background: var(--light);
+    }
+    
+    
+    #famousproj-title{
+        padding: 3% 5%;
+        display: flex;
+    }
+    
+    #famousproj-title h3{
+        color: var(--primary);
+    }
+    
+    
+    #famousproj-title img{
+        display: hidden;
+    }
+    
+    
+    #famousproj-description{
+        font-size: 3em;
+        text-align: center;
+    }
+    
+    #famousproj-description p{
+        font-size: 0.5em;
+        text-align: left;
+        width: 90%;
+        padding: 3% 12%;
+    }
+    
+    
+    #famousproj-flexgroup{
+        display: flex;
+        align-content: space-around;
+        padding: 0em 0em;
+        margin-left: 2.5em;
+    }
+    
+    #invdiv{
+        width: 40%;
+    }
+    
+    #famousproj-flexgroup .primary-button{
+        color: var(--light);
+        width: 16%;
+        padding: 0.5em;
+        font-size: 0.4em;
+        border-radius: 0.5em;
+    }
+}
+/*End Tablet*/
+
+
+/*Desktop*/
+@media (min-width: 1440px){
+
+    #famousproj-section{
+        background: var(--light);
+    }
+    
+    
+    #famousproj-title{
+        padding: 3% 5%;
+        display: flex;
+    }
+    
+    #famousproj-title h3{
+        color: var(--primary);
+    }
+    
+    
+    #famousproj-title img{
+        display: hidden;
+    }
+    
+    
+    #famousproj-description{
+        font-size: 3em;
+        text-align: center;
+    }
+    
+    #famousproj-description p{
+        font-size: 0.5em;
+        text-align: left;
+        width: 90%;
+        padding: 3% 12%;
+    }
+    
+    
+    #famousproj-flexgroup{
+        display: flex;
+        align-content: space-around;
+        padding: 0em 0em;
+        margin-left: 2.5em;
+    }
+    
+    #invdiv{
+        width: 40%;
+    }
+    
+    #famousproj-flexgroup .primary-button{
+        color: var(--light);
+        width: 16%;
+        padding: 0.5em;
+        font-size: 0.4em;
+        border-radius: 0.5em;
+    }
+    
+}
+/*End Desktop*/

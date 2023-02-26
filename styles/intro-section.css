@@ -20,6 +20,7 @@
     position: fixed;
     top: 0px;
     background: var(--light);
+    z-index: 15;
 }
 
 #navbar-section i{
