@@ -15,7 +15,7 @@ A responsive page to practice HTML / CSS.
 
 ##### Current overview:
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjU5OWU5OTAwOGI1ZGIxZDc3Y2MwMzdiOGVlMWMxYWY0NDE2NmQ4ZSZjdD1n/FA22cEZ2lp2rhZcEp2/giphy-downsized-large.gif">
+<img src="https://user-images.githubusercontent.com/71787801/221858343-eac53b35-4f13-4650-8ba0-7f28da96127d.gif">
 
 
 
